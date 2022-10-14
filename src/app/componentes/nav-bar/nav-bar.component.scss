@@ -1,0 +1,26 @@
+#nav{
+    position: fixed;
+    width: 100%;
+    
+    background-color: rgb(119, 121, 197);
+    padding-top: 1.4% ;
+    padding-bottom: 1.4%;
+    .nav-bar{
+        
+        font-size: 19px;
+        .conteudo{
+            .nav-item{
+                .nav-link{
+                    color: rgb(255, 255, 255);
+                    font-family: 'Poppins', sans-serif;
+
+                }
+                .nav-link:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+        
+        
+    }
+}

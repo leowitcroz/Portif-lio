@@ -1,0 +1,27 @@
+#sobre-mim {
+  padding-top: 2%;
+  .imagem {
+    margin-top: 10%;
+    .img {
+      width: 70%;
+      border-radius: 64% 36% 34% 66% / 41% 35% 65% 59%;
+      border: 3px solid rgb(119, 121, 197);
+    }
+  }
+  .textos {
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    animation:fadeIn;
+    animation-duration: 2s;
+   
+    .titulo{
+        margin-bottom: 20px;
+    }
+    .texto{
+
+    }
+  }
+}

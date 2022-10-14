@@ -1,0 +1,58 @@
+#inicial {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(119, 121, 197);
+  font-family: 'Silkscreen', cursive;
+
+  .conteudo {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .itens {
+     
+      .textos{
+        font-weight: bold;
+        color: antiquewhite;
+        .titulo{
+            font-size: 3rem;
+            margin-top: 15px;
+            margin-bottom: 2%;
+            animation:backInDown;
+            animation-duration: 2s;
+        }
+        .paragrafo{
+            font-size: 27px;
+            animation:backInLeft;
+            animation-duration: 2.5s;
+        }
+
+       
+
+      }
+      .links{
+       
+        margin-top: 40px;
+        font-size: 20px;
+        animation: bounceInRight;
+        animation-duration: 2.8s;
+      
+        .link-item{
+            text-decoration: none;
+            color: rgb(236, 226, 226);
+            margin: 30px;
+           
+        }
+
+        .link-item:hover{
+            color: antiquewhite;
+            text-decoration: underline;
+            font-size: 25px;
+        }
+    }
+    }
+  }
+}
